@@ -15,13 +15,13 @@ open [http://localhost:8080/](http://localhost:8080/) in your browser.
 
 ## Enpoints
 
-+ get("/add/:hash")
++ get("/add/:value") 
 
 + get("/get/:hash")
 
 + get("/getAll")
 
-# Snapshoting (TODO: make them only accessible via localost calls)
+# Snapshoting (TODO: make them only accessible via localhost calls)
 
 get("/save")
 

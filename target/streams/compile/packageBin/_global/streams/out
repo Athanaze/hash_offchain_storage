@@ -1,1 +1,31 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: /home/s/Documents/BLOCKCHAIN_SOLUTIONS/prediction_market/hash_offchain_storage/hash_offchain_storage/target/scala-2.13/hash_offchain_storage_2.13-0.1.0-SNAPSHOT.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/s/Documents/BLOCKCHAIN_SOLUTIONS/prediction_market/hash_offchain_storage/target/scala-2.13/hash_offchain_storage_2.13-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/s/Documents/BLOCKCHAIN_SOLUTIONS/prediction_market/hash_offchain_storage/target/scala-2.13/classes/com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/hash_offchain_storage[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/s/Documents/BLOCKCHAIN_SOLUTIONS/prediction_market/hash_offchain_storage/target/scala-2.13/classes/com/hash_offchain_storage[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/hash_offchain_storage/app[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/s/Documents/BLOCKCHAIN_SOLUTIONS/prediction_market/hash_offchain_storage/target/scala-2.13/classes/com/hash_offchain_storage/app[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/hash_offchain_storage/app/serv.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/s/Documents/BLOCKCHAIN_SOLUTIONS/prediction_market/hash_offchain_storage/target/scala-2.13/classes/com/hash_offchain_storage/app/serv.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	views[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/s/Documents/BLOCKCHAIN_SOLUTIONS/prediction_market/hash_offchain_storage/target/scala-2.13/classes/views[0m
+[0m[[0m[0mdebug[0m] [0m[0m	views/html[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/s/Documents/BLOCKCHAIN_SOLUTIONS/prediction_market/hash_offchain_storage/target/scala-2.13/classes/views/html[0m
+[0m[[0m[0mdebug[0m] [0m[0m	views/html/hello$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/s/Documents/BLOCKCHAIN_SOLUTIONS/prediction_market/hash_offchain_storage/target/scala-2.13/classes/views/html/hello$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	views/html/hello.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/s/Documents/BLOCKCHAIN_SOLUTIONS/prediction_market/hash_offchain_storage/target/scala-2.13/classes/views/html/hello.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/s/Documents/BLOCKCHAIN_SOLUTIONS/prediction_market/hash_offchain_storage/target/scala-2.13/classes/logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	layouts[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/s/Documents/BLOCKCHAIN_SOLUTIONS/prediction_market/hash_offchain_storage/target/scala-2.13/classes/layouts[0m
+[0m[[0m[0mdebug[0m] [0m[0m	layouts/html[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/s/Documents/BLOCKCHAIN_SOLUTIONS/prediction_market/hash_offchain_storage/target/scala-2.13/classes/layouts/html[0m
+[0m[[0m[0mdebug[0m] [0m[0m	layouts/html/default$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/s/Documents/BLOCKCHAIN_SOLUTIONS/prediction_market/hash_offchain_storage/target/scala-2.13/classes/layouts/html/default$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	layouts/html/default.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/s/Documents/BLOCKCHAIN_SOLUTIONS/prediction_market/hash_offchain_storage/target/scala-2.13/classes/layouts/html/default.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ScalatraBootstrap.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/s/Documents/BLOCKCHAIN_SOLUTIONS/prediction_market/hash_offchain_storage/target/scala-2.13/classes/ScalatraBootstrap.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

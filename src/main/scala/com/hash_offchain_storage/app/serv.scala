@@ -8,6 +8,8 @@ import upickle.default._
 import java.util.Calendar
 import java.io.{BufferedOutputStream, FileOutputStream, FileInputStream, BufferedInputStream, File}
 import java.nio.file.{Files, Path, Paths};
+import java.security.MessageDigest
+import java.math.BigInteger
 
 class serv extends ScalatraServlet with JacksonJsonSupport{
   val SNAPSHOT_PATH = "snapshots/"
@@ -29,7 +31,7 @@ class serv extends ScalatraServlet with JacksonJsonSupport{
   }
 
   var dataMap: Map[String, String] = latestSnapshot match {
-    case None => Map("someKey"->"someValue")
+    case None => Map(keyValueFromValue("The truth will set you free"))
     case Some(p) => getMapFromPath(p)
   }
 
@@ -46,11 +48,19 @@ class serv extends ScalatraServlet with JacksonJsonSupport{
       case true => None
       case false => Some(SNAPSHOT_PATH+l.map(f=>f.getName()).sorted.reverse.head)
     }
+  }
+
+  def hash(v: String): String = {
+    String.format("%032x", new BigInteger(1, MessageDigest.getInstance("SHA-256").digest(v.getBytes("UTF-8"))))
+  }
+
+  def keyValueFromValue(value: String): (String, String) = {
+    (hash(value), value)
   } 
 
-  get("/add/:hash") {
-    this.dataMap = this.dataMap + (params("hash") -> "Some json value")
-    params("hash")
+  get("/add/:value") {
+    this.dataMap = this.dataMap + keyValueFromValue(params("value"))
+    params("value")
   }
 
   get("/get/:hash") {
