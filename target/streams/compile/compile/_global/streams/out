@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m/home/s/Documents/BLOCKCHAIN_SOLUTIONS/prediction_market/hash_offchain_storage/hash_offchain_storage/src/main/scala/com/hash_offchain_storage/app/serv.scala:33:33: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
+[0m[[0m[31merror[0m] [0m[0m required: Map[String,String][0m
+[0m[[0m[31merror[0m] [0m[0m    case Some(p) => this.restore(p)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
